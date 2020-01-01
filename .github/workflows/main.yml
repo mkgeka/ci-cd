@@ -66,4 +66,4 @@ jobs:
          
     
     - name: Print Happy message for CD
-      run : echo "CD pipeline part finished successfully"
+      run : echo "Continiues delivery pipeline part finished successfully"
