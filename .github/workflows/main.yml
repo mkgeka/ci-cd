@@ -3,7 +3,7 @@ env:
   EB_PACKAGE_S3_BUCKET_NAME : "elasticbeanstalk-eu-central-1-515545681481"
   EB_APPLICATION_NAME       : "Simple"
   EB_ENVIREMENT_NAME        : "Simple-env"
-  DEPLOY_PACKAGE_NAME       : "simple_app_${{ githab.sha }}.zip"
+  DEPLOY_PACKAGE_NAME       : "simple_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "eu-central-1"
      
 on:
